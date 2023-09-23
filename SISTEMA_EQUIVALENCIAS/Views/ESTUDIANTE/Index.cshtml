@@ -1,0 +1,104 @@
+﻿@model IEnumerable<SISTEMA_EQUIVALENCIAS.Models.ESTUDIANTE>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Listado de Estudiantes</h2>
+
+<p>
+    @Html.ActionLink("Crear", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NO_CARNET)
+        </th>
+        <th>
+            @Html.DisplayName("INSCRITO")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PRIMER_NOMBRE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SEGUNDO_NOMBRE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PRIMER_APELLIDO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SEGUNDO_APELLIDO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TELEFONO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FECHA_NAC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DIRECCION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CORREO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DPI)
+        </th>
+        <th>
+            @Html.DisplayName("CARRERA")
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NO_CARNET)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.INSCRITO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PRIMER_NOMBRE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SEGUNDO_NOMBRE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PRIMER_APELLIDO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SEGUNDO_APELLIDO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TELEFONO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FECHA_NAC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DIRECCION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CORREO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DPI)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CARRERA.NOMBRE)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.NO_CARNET }) |
+            @Html.ActionLink("Detalles", "Details", new { id = item.NO_CARNET }) |
+            @Html.ActionLink("Remover", "Delete", new { id = item.NO_CARNET })
+        </td>
+
+    </tr>
+    }
+
+</table>
+
+@Html.ActionLink("Regresar", "About", "Home")

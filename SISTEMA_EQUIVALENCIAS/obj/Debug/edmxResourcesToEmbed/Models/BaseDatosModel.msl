@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EQUIVALENCIAModelStoreContainer" CdmEntityContainer="EQUIVALENCIAEntities">
+    <EntitySetMapping Name="CARRERA">
+      <EntityTypeMapping TypeName="EQUIVALENCIAModel.CARRERA">
+        <MappingFragment StoreEntitySet="CARRERA">
+          <ScalarProperty Name="ID_CARRERA" ColumnName="ID_CARRERA" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CURSO">
+      <EntityTypeMapping TypeName="EQUIVALENCIAModel.CURSO">
+        <MappingFragment StoreEntitySet="CURSO">
+          <ScalarProperty Name="ID_CURSO" ColumnName="ID_CURSO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EQUIVALENCIA">
+      <EntityTypeMapping TypeName="EQUIVALENCIAModel.EQUIVALENCIA">
+        <MappingFragment StoreEntitySet="EQUIVALENCIA">
+          <ScalarProperty Name="ID_EQUIVALENCIA" ColumnName="ID_EQUIVALENCIA" />
+          <ScalarProperty Name="NO_CARNET" ColumnName="NO_CARNET" />
+          <ScalarProperty Name="ID_SEDE" ColumnName="ID_SEDE" />
+          <ScalarProperty Name="FECHA_EQUIVALENCIA" ColumnName="FECHA_EQUIVALENCIA" />
+          <ScalarProperty Name="LUGAR_FISICO" ColumnName="LUGAR_FISICO" />
+          <ScalarProperty Name="OBSERVACIONES" ColumnName="OBSERVACIONES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EQUIVALENCIA_CURSO">
+      <EntityTypeMapping TypeName="EQUIVALENCIAModel.EQUIVALENCIA_CURSO">
+        <MappingFragment StoreEntitySet="EQUIVALENCIA_CURSO">
+          <ScalarProperty Name="ID_EQUIVALENCIA_CURSO" ColumnName="ID_EQUIVALENCIA_CURSO" />
+          <ScalarProperty Name="ID_CURSO" ColumnName="ID_CURSO" />
+          <ScalarProperty Name="ID_EQUIVALENCIA" ColumnName="ID_EQUIVALENCIA" />
+          <ScalarProperty Name="FECHA_INICIO" ColumnName="FECHA_INICIO" />
+          <ScalarProperty Name="FECHA_FIN" ColumnName="FECHA_FIN" />
+          <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+          <ScalarProperty Name="OBSERVACIONES" ColumnName="OBSERVACIONES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTADO">
+      <EntityTypeMapping TypeName="EQUIVALENCIAModel.ESTADO">
+        <MappingFragment StoreEntitySet="ESTADO">
+          <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTUDIANTE">
+      <EntityTypeMapping TypeName="EQUIVALENCIAModel.ESTUDIANTE">
+        <MappingFragment StoreEntitySet="ESTUDIANTE">
+          <ScalarProperty Name="INSCRITO" ColumnName="INSCRITO" />
+          <ScalarProperty Name="NO_CARNET" ColumnName="NO_CARNET" />
+          <ScalarProperty Name="PRIMER_NOMBRE" ColumnName="PRIMER_NOMBRE" />
+          <ScalarProperty Name="SEGUNDO_NOMBRE" ColumnName="SEGUNDO_NOMBRE" />
+          <ScalarProperty Name="PRIMER_APELLIDO" ColumnName="PRIMER_APELLIDO" />
+          <ScalarProperty Name="SEGUNDO_APELLIDO" ColumnName="SEGUNDO_APELLIDO" />
+          <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+          <ScalarProperty Name="FECHA_NAC" ColumnName="FECHA_NAC" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="CORREO" ColumnName="CORREO" />
+          <ScalarProperty Name="DPI" ColumnName="DPI" />
+          <ScalarProperty Name="ID_CARRERA" ColumnName="ID_CARRERA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEDE">
+      <EntityTypeMapping TypeName="EQUIVALENCIAModel.SEDE">
+        <MappingFragment StoreEntitySet="SEDE">
+          <ScalarProperty Name="ID_SEDE" ColumnName="ID_SEDE" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIO">
+      <EntityTypeMapping TypeName="EQUIVALENCIAModel.USUARIO">
+        <MappingFragment StoreEntitySet="USUARIO">
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="CLAVE" ColumnName="CLAVE" />
+          <ScalarProperty Name="NO_CARNET" ColumnName="NO_CARNET" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

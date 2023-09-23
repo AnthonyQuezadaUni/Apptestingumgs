@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="EQUIVALENCIAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CARRERA">
+          <Key>
+            <PropertyRef Name="ID_CARRERA" />
+          </Key>
+          <Property Name="ID_CARRERA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOMBRE" Type="varchar" MaxLength="50" />
+          <Property Name="DESCRIPCION" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="CURSO">
+          <Key>
+            <PropertyRef Name="ID_CURSO" />
+          </Key>
+          <Property Name="ID_CURSO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOMBRE" Type="varchar" MaxLength="50" />
+          <Property Name="DESCRIPCION" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="EQUIVALENCIA">
+          <Key>
+            <PropertyRef Name="ID_EQUIVALENCIA" />
+          </Key>
+          <Property Name="ID_EQUIVALENCIA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NO_CARNET" Type="int" />
+          <Property Name="ID_SEDE" Type="int" />
+          <Property Name="FECHA_EQUIVALENCIA" Type="datetime" />
+          <Property Name="LUGAR_FISICO" Type="varchar" MaxLength="100" />
+          <Property Name="OBSERVACIONES" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="EQUIVALENCIA_CURSO">
+          <Key>
+            <PropertyRef Name="ID_EQUIVALENCIA_CURSO" />
+          </Key>
+          <Property Name="ID_EQUIVALENCIA_CURSO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ID_CURSO" Type="int" />
+          <Property Name="ID_EQUIVALENCIA" Type="int" />
+          <Property Name="FECHA_INICIO" Type="datetime" />
+          <Property Name="FECHA_FIN" Type="datetime" />
+          <Property Name="ID_ESTADO" Type="int" />
+          <Property Name="OBSERVACIONES" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="ESTADO">
+          <Key>
+            <PropertyRef Name="ID_ESTADO" />
+          </Key>
+          <Property Name="ID_ESTADO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOMBRE" Type="varchar" MaxLength="50" />
+          <Property Name="DESCRIPCION" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="ESTUDIANTE">
+          <Key>
+            <PropertyRef Name="NO_CARNET" />
+          </Key>
+          <Property Name="NO_CARNET" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PRIMER_NOMBRE" Type="varchar" MaxLength="100" />
+          <Property Name="SEGUNDO_NOMBRE" Type="varchar" MaxLength="100" />
+          <Property Name="PRIMER_APELLIDO" Type="varchar" MaxLength="100" />
+          <Property Name="SEGUNDO_APELLIDO" Type="varchar" MaxLength="100" />
+          <Property Name="TELEFONO" Type="int" />
+          <Property Name="FECHA_NAC" Type="datetime" />
+          <Property Name="DIRECCION" Type="varchar" MaxLength="100" />
+          <Property Name="CORREO" Type="varchar" MaxLength="100" />
+          <Property Name="DPI" Type="varchar" MaxLength="100" />
+          <Property Name="ID_CARRERA" Type="int" />
+          <Property Name="INSCRITO" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="SEDE">
+          <Key>
+            <PropertyRef Name="ID_SEDE" />
+          </Key>
+          <Property Name="ID_SEDE" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOMBRE" Type="varchar" MaxLength="50" />
+          <Property Name="DESCRIPCION" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="USUARIO">
+          <Key>
+            <PropertyRef Name="NOMBRE" />
+          </Key>
+          <Property Name="NOMBRE" Type="nchar" MaxLength="50" Nullable="false" />
+          <Property Name="CLAVE" Type="varchar" MaxLength="500" />
+          <Property Name="NO_CARNET" Type="int" />
+        </EntityType>
+        <Association Name="FK__EQUIVALEN__ID_CU__36B12243">
+          <End Role="CURSO" Type="Self.CURSO" Multiplicity="0..1" />
+          <End Role="EQUIVALENCIA_CURSO" Type="Self.EQUIVALENCIA_CURSO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CURSO">
+              <PropertyRef Name="ID_CURSO" />
+            </Principal>
+            <Dependent Role="EQUIVALENCIA_CURSO">
+              <PropertyRef Name="ID_CURSO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EQUIVALEN__ID_EQ__38996AB5">
+          <End Role="EQUIVALENCIA" Type="Self.EQUIVALENCIA" Multiplicity="0..1" />
+          <End Role="EQUIVALENCIA_CURSO" Type="Self.EQUIVALENCIA_CURSO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EQUIVALENCIA">
+              <PropertyRef Name="ID_EQUIVALENCIA" />
+            </Principal>
+            <Dependent Role="EQUIVALENCIA_CURSO">
+              <PropertyRef Name="ID_EQUIVALENCIA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EQUIVALEN__ID_ES__37A5467C">
+          <End Role="ESTADO" Type="Self.ESTADO" Multiplicity="0..1" />
+          <End Role="EQUIVALENCIA_CURSO" Type="Self.EQUIVALENCIA_CURSO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESTADO">
+              <PropertyRef Name="ID_ESTADO" />
+            </Principal>
+            <Dependent Role="EQUIVALENCIA_CURSO">
+              <PropertyRef Name="ID_ESTADO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EQUIVALEN__ID_SE__31EC6D26">
+          <End Role="SEDE" Type="Self.SEDE" Multiplicity="0..1" />
+          <End Role="EQUIVALENCIA" Type="Self.EQUIVALENCIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SEDE">
+              <PropertyRef Name="ID_SEDE" />
+            </Principal>
+            <Dependent Role="EQUIVALENCIA">
+              <PropertyRef Name="ID_SEDE" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EQUIVALEN__NO_CA__33D4B598">
+          <End Role="ESTUDIANTE" Type="Self.ESTUDIANTE" Multiplicity="0..1" />
+          <End Role="EQUIVALENCIA" Type="Self.EQUIVALENCIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESTUDIANTE">
+              <PropertyRef Name="NO_CARNET" />
+            </Principal>
+            <Dependent Role="EQUIVALENCIA">
+              <PropertyRef Name="NO_CARNET" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ESTUDIANT__ID_CA__2C3393D0">
+          <End Role="CARRERA" Type="Self.CARRERA" Multiplicity="0..1" />
+          <End Role="ESTUDIANTE" Type="Self.ESTUDIANTE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CARRERA">
+              <PropertyRef Name="ID_CARRERA" />
+            </Principal>
+            <Dependent Role="ESTUDIANTE">
+              <PropertyRef Name="ID_CARRERA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__USUARIO__NO_CARN__2F10007B">
+          <End Role="ESTUDIANTE" Type="Self.ESTUDIANTE" Multiplicity="0..1" />
+          <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESTUDIANTE">
+              <PropertyRef Name="NO_CARNET" />
+            </Principal>
+            <Dependent Role="USUARIO">
+              <PropertyRef Name="NO_CARNET" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EQUIVALENCIAModelStoreContainer">
+          <EntitySet Name="CARRERA" EntityType="Self.CARRERA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CURSO" EntityType="Self.CURSO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EQUIVALENCIA" EntityType="Self.EQUIVALENCIA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EQUIVALENCIA_CURSO" EntityType="Self.EQUIVALENCIA_CURSO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ESTADO" EntityType="Self.ESTADO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ESTUDIANTE" EntityType="Self.ESTUDIANTE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SEDE" EntityType="Self.SEDE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__EQUIVALEN__ID_CU__36B12243" Association="Self.FK__EQUIVALEN__ID_CU__36B12243">
+            <End Role="CURSO" EntitySet="CURSO" />
+            <End Role="EQUIVALENCIA_CURSO" EntitySet="EQUIVALENCIA_CURSO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EQUIVALEN__ID_EQ__38996AB5" Association="Self.FK__EQUIVALEN__ID_EQ__38996AB5">
+            <End Role="EQUIVALENCIA" EntitySet="EQUIVALENCIA" />
+            <End Role="EQUIVALENCIA_CURSO" EntitySet="EQUIVALENCIA_CURSO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EQUIVALEN__ID_ES__37A5467C" Association="Self.FK__EQUIVALEN__ID_ES__37A5467C">
+            <End Role="ESTADO" EntitySet="ESTADO" />
+            <End Role="EQUIVALENCIA_CURSO" EntitySet="EQUIVALENCIA_CURSO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EQUIVALEN__ID_SE__31EC6D26" Association="Self.FK__EQUIVALEN__ID_SE__31EC6D26">
+            <End Role="SEDE" EntitySet="SEDE" />
+            <End Role="EQUIVALENCIA" EntitySet="EQUIVALENCIA" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EQUIVALEN__NO_CA__33D4B598" Association="Self.FK__EQUIVALEN__NO_CA__33D4B598">
+            <End Role="ESTUDIANTE" EntitySet="ESTUDIANTE" />
+            <End Role="EQUIVALENCIA" EntitySet="EQUIVALENCIA" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ESTUDIANT__ID_CA__2C3393D0" Association="Self.FK__ESTUDIANT__ID_CA__2C3393D0">
+            <End Role="CARRERA" EntitySet="CARRERA" />
+            <End Role="ESTUDIANTE" EntitySet="ESTUDIANTE" />
+          </AssociationSet>
+          <AssociationSet Name="FK__USUARIO__NO_CARN__2F10007B" Association="Self.FK__USUARIO__NO_CARN__2F10007B">
+            <End Role="ESTUDIANTE" EntitySet="ESTUDIANTE" />
+            <End Role="USUARIO" EntitySet="USUARIO" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EQUIVALENCIAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CARRERA">
+          <Key>
+            <PropertyRef Name="ID_CARRERA" />
+          </Key>
+          <Property Name="ID_CARRERA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ESTUDIANTE" Relationship="Self.FK__ESTUDIANT__ID_CA__2C3393D0" FromRole="CARRERA" ToRole="ESTUDIANTE" />
+        </EntityType>
+        <EntityType Name="CURSO">
+          <Key>
+            <PropertyRef Name="ID_CURSO" />
+          </Key>
+          <Property Name="ID_CURSO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="EQUIVALENCIA_CURSO" Relationship="Self.FK__EQUIVALEN__ID_CU__36B12243" FromRole="CURSO" ToRole="EQUIVALENCIA_CURSO" />
+        </EntityType>
+        <EntityType Name="EQUIVALENCIA">
+          <Key>
+            <PropertyRef Name="ID_EQUIVALENCIA" />
+          </Key>
+          <Property Name="ID_EQUIVALENCIA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NO_CARNET" Type="Int32" />
+          <Property Name="ID_SEDE" Type="Int32" />
+          <Property Name="FECHA_EQUIVALENCIA" Type="DateTime" Precision="3" />
+          <Property Name="LUGAR_FISICO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="OBSERVACIONES" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="EQUIVALENCIA_CURSO" Relationship="Self.FK__EQUIVALEN__ID_EQ__38996AB5" FromRole="EQUIVALENCIA" ToRole="EQUIVALENCIA_CURSO" />
+          <NavigationProperty Name="SEDE" Relationship="Self.FK__EQUIVALEN__ID_SE__31EC6D26" FromRole="EQUIVALENCIA" ToRole="SEDE" />
+          <NavigationProperty Name="ESTUDIANTE" Relationship="Self.FK__EQUIVALEN__NO_CA__33D4B598" FromRole="EQUIVALENCIA" ToRole="ESTUDIANTE" />
+        </EntityType>
+        <EntityType Name="EQUIVALENCIA_CURSO">
+          <Key>
+            <PropertyRef Name="ID_EQUIVALENCIA_CURSO" />
+          </Key>
+          <Property Name="ID_EQUIVALENCIA_CURSO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_CURSO" Type="Int32" />
+          <Property Name="ID_EQUIVALENCIA" Type="Int32" />
+          <Property Name="FECHA_INICIO" Type="DateTime" Precision="3" />
+          <Property Name="FECHA_FIN" Type="DateTime" Precision="3" />
+          <Property Name="ID_ESTADO" Type="Int32" />
+          <Property Name="OBSERVACIONES" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CURSO" Relationship="Self.FK__EQUIVALEN__ID_CU__36B12243" FromRole="EQUIVALENCIA_CURSO" ToRole="CURSO" />
+          <NavigationProperty Name="EQUIVALENCIA" Relationship="Self.FK__EQUIVALEN__ID_EQ__38996AB5" FromRole="EQUIVALENCIA_CURSO" ToRole="EQUIVALENCIA" />
+          <NavigationProperty Name="ESTADO" Relationship="Self.FK__EQUIVALEN__ID_ES__37A5467C" FromRole="EQUIVALENCIA_CURSO" ToRole="ESTADO" />
+        </EntityType>
+        <EntityType Name="ESTADO">
+          <Key>
+            <PropertyRef Name="ID_ESTADO" />
+          </Key>
+          <Property Name="ID_ESTADO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="EQUIVALENCIA_CURSO" Relationship="Self.FK__EQUIVALEN__ID_ES__37A5467C" FromRole="ESTADO" ToRole="EQUIVALENCIA_CURSO" />
+        </EntityType>
+        <EntityType Name="ESTUDIANTE">
+          <Key>
+            <PropertyRef Name="NO_CARNET" />
+          </Key>
+          <Property Name="NO_CARNET" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PRIMER_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="SEGUNDO_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="PRIMER_APELLIDO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="SEGUNDO_APELLIDO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="TELEFONO" Type="Int32" />
+          <Property Name="FECHA_NAC" Type="DateTime" Precision="3" />
+          <Property Name="DIRECCION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CORREO" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="DPI" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ID_CARRERA" Type="Int32" />
+          <NavigationProperty Name="CARRERA" Relationship="Self.FK__ESTUDIANT__ID_CA__2C3393D0" FromRole="ESTUDIANTE" ToRole="CARRERA" />
+          <NavigationProperty Name="EQUIVALENCIA" Relationship="Self.FK__EQUIVALEN__NO_CA__33D4B598" FromRole="ESTUDIANTE" ToRole="EQUIVALENCIA" />
+          <NavigationProperty Name="USUARIO" Relationship="Self.FK__USUARIO__NO_CARN__2F10007B" FromRole="ESTUDIANTE" ToRole="USUARIO" />
+          <Property Name="INSCRITO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="SEDE">
+          <Key>
+            <PropertyRef Name="ID_SEDE" />
+          </Key>
+          <Property Name="ID_SEDE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="EQUIVALENCIA" Relationship="Self.FK__EQUIVALEN__ID_SE__31EC6D26" FromRole="SEDE" ToRole="EQUIVALENCIA" />
+        </EntityType>
+        <EntityType Name="USUARIO">
+          <Key>
+            <PropertyRef Name="NOMBRE" />
+          </Key>
+          <Property Name="NOMBRE" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="CLAVE" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="NO_CARNET" Type="Int32" />
+          <NavigationProperty Name="ESTUDIANTE" Relationship="Self.FK__USUARIO__NO_CARN__2F10007B" FromRole="USUARIO" ToRole="ESTUDIANTE" />
+        </EntityType>
+        <Association Name="FK__ESTUDIANT__ID_CA__2C3393D0">
+          <End Role="CARRERA" Type="Self.CARRERA" Multiplicity="0..1" />
+          <End Role="ESTUDIANTE" Type="Self.ESTUDIANTE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CARRERA">
+              <PropertyRef Name="ID_CARRERA" />
+            </Principal>
+            <Dependent Role="ESTUDIANTE">
+              <PropertyRef Name="ID_CARRERA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EQUIVALEN__ID_CU__36B12243">
+          <End Role="CURSO" Type="Self.CURSO" Multiplicity="0..1" />
+          <End Role="EQUIVALENCIA_CURSO" Type="Self.EQUIVALENCIA_CURSO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CURSO">
+              <PropertyRef Name="ID_CURSO" />
+            </Principal>
+            <Dependent Role="EQUIVALENCIA_CURSO">
+              <PropertyRef Name="ID_CURSO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EQUIVALEN__ID_EQ__38996AB5">
+          <End Role="EQUIVALENCIA" Type="Self.EQUIVALENCIA" Multiplicity="0..1" />
+          <End Role="EQUIVALENCIA_CURSO" Type="Self.EQUIVALENCIA_CURSO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EQUIVALENCIA">
+              <PropertyRef Name="ID_EQUIVALENCIA" />
+            </Principal>
+            <Dependent Role="EQUIVALENCIA_CURSO">
+              <PropertyRef Name="ID_EQUIVALENCIA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EQUIVALEN__ID_SE__31EC6D26">
+          <End Role="SEDE" Type="Self.SEDE" Multiplicity="0..1" />
+          <End Role="EQUIVALENCIA" Type="Self.EQUIVALENCIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SEDE">
+              <PropertyRef Name="ID_SEDE" />
+            </Principal>
+            <Dependent Role="EQUIVALENCIA">
+              <PropertyRef Name="ID_SEDE" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EQUIVALEN__NO_CA__33D4B598">
+          <End Role="ESTUDIANTE" Type="Self.ESTUDIANTE" Multiplicity="0..1" />
+          <End Role="EQUIVALENCIA" Type="Self.EQUIVALENCIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESTUDIANTE">
+              <PropertyRef Name="NO_CARNET" />
+            </Principal>
+            <Dependent Role="EQUIVALENCIA">
+              <PropertyRef Name="NO_CARNET" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__EQUIVALEN__ID_ES__37A5467C">
+          <End Role="ESTADO" Type="Self.ESTADO" Multiplicity="0..1" />
+          <End Role="EQUIVALENCIA_CURSO" Type="Self.EQUIVALENCIA_CURSO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESTADO">
+              <PropertyRef Name="ID_ESTADO" />
+            </Principal>
+            <Dependent Role="EQUIVALENCIA_CURSO">
+              <PropertyRef Name="ID_ESTADO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__USUARIO__NO_CARN__2F10007B">
+          <End Role="ESTUDIANTE" Type="Self.ESTUDIANTE" Multiplicity="0..1" />
+          <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESTUDIANTE">
+              <PropertyRef Name="NO_CARNET" />
+            </Principal>
+            <Dependent Role="USUARIO">
+              <PropertyRef Name="NO_CARNET" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EQUIVALENCIAEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CARRERA" EntityType="Self.CARRERA" />
+          <EntitySet Name="CURSO" EntityType="Self.CURSO" />
+          <EntitySet Name="EQUIVALENCIA" EntityType="Self.EQUIVALENCIA" />
+          <EntitySet Name="EQUIVALENCIA_CURSO" EntityType="Self.EQUIVALENCIA_CURSO" />
+          <EntitySet Name="ESTADO" EntityType="Self.ESTADO" />
+          <EntitySet Name="ESTUDIANTE" EntityType="Self.ESTUDIANTE" />
+          <EntitySet Name="SEDE" EntityType="Self.SEDE" />
+          <EntitySet Name="USUARIO" EntityType="Self.USUARIO" />
+          <AssociationSet Name="FK__ESTUDIANT__ID_CA__2C3393D0" Association="Self.FK__ESTUDIANT__ID_CA__2C3393D0">
+            <End Role="CARRERA" EntitySet="CARRERA" />
+            <End Role="ESTUDIANTE" EntitySet="ESTUDIANTE" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EQUIVALEN__ID_CU__36B12243" Association="Self.FK__EQUIVALEN__ID_CU__36B12243">
+            <End Role="CURSO" EntitySet="CURSO" />
+            <End Role="EQUIVALENCIA_CURSO" EntitySet="EQUIVALENCIA_CURSO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EQUIVALEN__ID_EQ__38996AB5" Association="Self.FK__EQUIVALEN__ID_EQ__38996AB5">
+            <End Role="EQUIVALENCIA" EntitySet="EQUIVALENCIA" />
+            <End Role="EQUIVALENCIA_CURSO" EntitySet="EQUIVALENCIA_CURSO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EQUIVALEN__ID_SE__31EC6D26" Association="Self.FK__EQUIVALEN__ID_SE__31EC6D26">
+            <End Role="SEDE" EntitySet="SEDE" />
+            <End Role="EQUIVALENCIA" EntitySet="EQUIVALENCIA" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EQUIVALEN__NO_CA__33D4B598" Association="Self.FK__EQUIVALEN__NO_CA__33D4B598">
+            <End Role="ESTUDIANTE" EntitySet="ESTUDIANTE" />
+            <End Role="EQUIVALENCIA" EntitySet="EQUIVALENCIA" />
+          </AssociationSet>
+          <AssociationSet Name="FK__EQUIVALEN__ID_ES__37A5467C" Association="Self.FK__EQUIVALEN__ID_ES__37A5467C">
+            <End Role="ESTADO" EntitySet="ESTADO" />
+            <End Role="EQUIVALENCIA_CURSO" EntitySet="EQUIVALENCIA_CURSO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__USUARIO__NO_CARN__2F10007B" Association="Self.FK__USUARIO__NO_CARN__2F10007B">
+            <End Role="ESTUDIANTE" EntitySet="ESTUDIANTE" />
+            <End Role="USUARIO" EntitySet="USUARIO" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EQUIVALENCIAModelStoreContainer" CdmEntityContainer="EQUIVALENCIAEntities">
+          <EntitySetMapping Name="CARRERA">
+            <EntityTypeMapping TypeName="EQUIVALENCIAModel.CARRERA">
+              <MappingFragment StoreEntitySet="CARRERA">
+                <ScalarProperty Name="ID_CARRERA" ColumnName="ID_CARRERA" />
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CURSO">
+            <EntityTypeMapping TypeName="EQUIVALENCIAModel.CURSO">
+              <MappingFragment StoreEntitySet="CURSO">
+                <ScalarProperty Name="ID_CURSO" ColumnName="ID_CURSO" />
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EQUIVALENCIA">
+            <EntityTypeMapping TypeName="EQUIVALENCIAModel.EQUIVALENCIA">
+              <MappingFragment StoreEntitySet="EQUIVALENCIA">
+                <ScalarProperty Name="ID_EQUIVALENCIA" ColumnName="ID_EQUIVALENCIA" />
+                <ScalarProperty Name="NO_CARNET" ColumnName="NO_CARNET" />
+                <ScalarProperty Name="ID_SEDE" ColumnName="ID_SEDE" />
+                <ScalarProperty Name="FECHA_EQUIVALENCIA" ColumnName="FECHA_EQUIVALENCIA" />
+                <ScalarProperty Name="LUGAR_FISICO" ColumnName="LUGAR_FISICO" />
+                <ScalarProperty Name="OBSERVACIONES" ColumnName="OBSERVACIONES" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EQUIVALENCIA_CURSO">
+            <EntityTypeMapping TypeName="EQUIVALENCIAModel.EQUIVALENCIA_CURSO">
+              <MappingFragment StoreEntitySet="EQUIVALENCIA_CURSO">
+                <ScalarProperty Name="ID_EQUIVALENCIA_CURSO" ColumnName="ID_EQUIVALENCIA_CURSO" />
+                <ScalarProperty Name="ID_CURSO" ColumnName="ID_CURSO" />
+                <ScalarProperty Name="ID_EQUIVALENCIA" ColumnName="ID_EQUIVALENCIA" />
+                <ScalarProperty Name="FECHA_INICIO" ColumnName="FECHA_INICIO" />
+                <ScalarProperty Name="FECHA_FIN" ColumnName="FECHA_FIN" />
+                <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+                <ScalarProperty Name="OBSERVACIONES" ColumnName="OBSERVACIONES" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ESTADO">
+            <EntityTypeMapping TypeName="EQUIVALENCIAModel.ESTADO">
+              <MappingFragment StoreEntitySet="ESTADO">
+                <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ESTUDIANTE">
+            <EntityTypeMapping TypeName="EQUIVALENCIAModel.ESTUDIANTE">
+              <MappingFragment StoreEntitySet="ESTUDIANTE">
+                <ScalarProperty Name="INSCRITO" ColumnName="INSCRITO" />
+                <ScalarProperty Name="NO_CARNET" ColumnName="NO_CARNET" />
+                <ScalarProperty Name="PRIMER_NOMBRE" ColumnName="PRIMER_NOMBRE" />
+                <ScalarProperty Name="SEGUNDO_NOMBRE" ColumnName="SEGUNDO_NOMBRE" />
+                <ScalarProperty Name="PRIMER_APELLIDO" ColumnName="PRIMER_APELLIDO" />
+                <ScalarProperty Name="SEGUNDO_APELLIDO" ColumnName="SEGUNDO_APELLIDO" />
+                <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+                <ScalarProperty Name="FECHA_NAC" ColumnName="FECHA_NAC" />
+                <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+                <ScalarProperty Name="CORREO" ColumnName="CORREO" />
+                <ScalarProperty Name="DPI" ColumnName="DPI" />
+                <ScalarProperty Name="ID_CARRERA" ColumnName="ID_CARRERA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SEDE">
+            <EntityTypeMapping TypeName="EQUIVALENCIAModel.SEDE">
+              <MappingFragment StoreEntitySet="SEDE">
+                <ScalarProperty Name="ID_SEDE" ColumnName="ID_SEDE" />
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="USUARIO">
+            <EntityTypeMapping TypeName="EQUIVALENCIAModel.USUARIO">
+              <MappingFragment StoreEntitySet="USUARIO">
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="CLAVE" ColumnName="CLAVE" />
+                <ScalarProperty Name="NO_CARNET" ColumnName="NO_CARNET" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

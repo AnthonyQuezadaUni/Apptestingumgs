@@ -1,0 +1,41 @@
+﻿@model IEnumerable<SISTEMA_EQUIVALENCIAS.Models.CURSO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Listado de Cursos</h2>
+
+<p>
+    @Html.ActionLink("Crear", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NOMBRE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DESCRIPCION)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NOMBRE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DESCRIPCION)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID_CURSO }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID_CURSO }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID_CURSO })
+            </td>
+        </tr>
+    }
+
+</table>
+@Html.ActionLink("Regresar", "Index", "Home")

@@ -1,0 +1,264 @@
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\SISTEMA_EQUIVALENCIAS.dll.config
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\SISTEMA_EQUIVALENCIAS.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\SISTEMA_EQUIVALENCIAS.pdb
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csc.exe
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csc.exe.config
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csc.rsp
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csi.exe
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csi.exe.config
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csi.rsp
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.AppContext.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Console.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.Compression.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Claims.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.ValueTuple.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\vbc.exe
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\vbc.exe.config
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\vbc.rsp
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Antlr3.Runtime.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EnCryptDecrypt.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.SqlServer.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Newtonsoft.Json.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Helpers.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Mvc.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Optimization.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Razor.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\WebGrease.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.SqlServer.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Helpers.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Mvc.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Optimization.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Razor.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Newtonsoft.Json.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Antlr3.Runtime.pdb
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.csproj.CoreCompileInputs.cache
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.csproj.CopyComplete
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.pdb
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.csprojAssemblyReference.cache
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\SISTEMA_EQUIVALENCIAS.dll.config
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\SISTEMA_EQUIVALENCIAS.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\SISTEMA_EQUIVALENCIAS.pdb
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csc.exe
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csc.exe.config
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csc.rsp
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csi.exe
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csi.exe.config
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csi.rsp
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.AppContext.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Console.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.Compression.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Claims.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.ValueTuple.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\vbc.exe
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\vbc.exe.config
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\vbc.rsp
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Antlr3.Runtime.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EnCryptDecrypt.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.SqlServer.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Newtonsoft.Json.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Helpers.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Mvc.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Optimization.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Razor.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\WebGrease.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.SqlServer.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Helpers.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Mvc.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Optimization.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Razor.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Newtonsoft.Json.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Antlr3.Runtime.pdb
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.csprojAssemblyReference.cache
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.csproj.CoreCompileInputs.cache
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.csproj.CopyComplete
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.dll
+C:\Users\Emerson Rivera\Desktop\PRIVADO 2022\DESARROLLO DE SOFTWARE\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.pdb
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\SISTEMA_EQUIVALENCIAS.dll.config
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\SISTEMA_EQUIVALENCIAS.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\SISTEMA_EQUIVALENCIAS.pdb
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csc.exe
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csc.exe.config
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csc.rsp
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csi.exe
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csi.exe.config
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\csi.rsp
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.AppContext.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Console.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.Compression.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Claims.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.ValueTuple.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\vbc.exe
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\vbc.exe.config
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\vbc.rsp
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Antlr3.Runtime.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EnCryptDecrypt.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.SqlServer.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Newtonsoft.Json.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Helpers.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Mvc.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Optimization.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Razor.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\WebGrease.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.xml
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\EntityFramework.SqlServer.xml
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Helpers.xml
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Mvc.xml
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Optimization.xml
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.Razor.xml
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.xml
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Newtonsoft.Json.xml
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Antlr3.Runtime.pdb
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.csproj.AssemblyReference.cache
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.csproj.CopyComplete
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.dll
+C:\Users\Anthony\OneDrive\Escritorio\Proyecto\SISTEMA_EQUIVALENCIAS\SISTEMA_EQUIVALENCIAS\obj\Debug\SISTEMA_EQUIVALENCIAS.pdb

@@ -1,0 +1,64 @@
+﻿@model SISTEMA_EQUIVALENCIAS.Models.EQUIVALENCIA
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Remover</h2>
+
+<h3>Esta seguro de remover registro?</h3>
+<div>
+    <h4>Equivalencia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FECHA_EQUIVALENCIA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FECHA_EQUIVALENCIA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LUGAR_FISICO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LUGAR_FISICO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OBSERVACIONES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OBSERVACIONES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SEDE.NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SEDE.NOMBRE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ESTUDIANTE.PRIMER_NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ESTUDIANTE.PRIMER_NOMBRE)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Regresar", "Index")
+        </div>
+    }
+</div>

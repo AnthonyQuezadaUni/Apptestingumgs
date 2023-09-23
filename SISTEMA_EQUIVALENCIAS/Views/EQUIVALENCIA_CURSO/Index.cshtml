@@ -1,0 +1,65 @@
+﻿@model IEnumerable<SISTEMA_EQUIVALENCIAS.Models.EQUIVALENCIA_CURSO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Listado de Cursos Ingresados en Equivalencia</h2>
+
+<p>
+    @Html.ActionLink("Crear", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Fecha de Inicio")
+        </th>
+        <th>
+            @Html.DisplayName("Fecha de Fin")
+        </th>
+        <th>
+            @Html.DisplayName("Observaciones")
+        </th>
+        <th>
+            @Html.DisplayName("Curso")
+        </th>
+        <th>
+            @Html.DisplayName("Carnet del Estudiante")
+        </th>
+        <th>
+            @Html.DisplayName("Estado")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FECHA_INICIO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FECHA_FIN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OBSERVACIONES)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CURSO.NOMBRE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EQUIVALENCIA.LUGAR_FISICO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ESTADO.NOMBRE)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.ID_EQUIVALENCIA_CURSO }) |
+                @Html.ActionLink("Detalles", "Details", new { id = item.ID_EQUIVALENCIA_CURSO }) |
+                @Html.ActionLink("Remover", "Delete", new { id = item.ID_EQUIVALENCIA_CURSO })
+            </td>
+        </tr>
+    }
+
+</table>
+@Html.ActionLink("Regresar", "About", "Home")

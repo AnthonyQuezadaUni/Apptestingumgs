@@ -1,0 +1,66 @@
+﻿@model SISTEMA_EQUIVALENCIAS.Models.EQUIVALENCIA_CURSO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Cursos de Equivalencia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FECHA_INICIO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FECHA_INICIO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FECHA_FIN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FECHA_FIN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OBSERVACIONES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OBSERVACIONES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CURSO.NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CURSO.NOMBRE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EQUIVALENCIA.LUGAR_FISICO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EQUIVALENCIA.LUGAR_FISICO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ESTADO.NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ESTADO.NOMBRE)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.ID_EQUIVALENCIA_CURSO }) |
+    @Html.ActionLink("Regresar", "Index")
+</p>

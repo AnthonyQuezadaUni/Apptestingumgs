@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Equivalencias";
+}
+<h2>@ViewBag.Title.</h2>
+
+
+<center><img src="~/Scripts/Usac_logo.png" width="150"></center>
+<center><h1>Equivalencias - USAC</h1></center>
+<center>
+    <p class="lead">Proyecto para registro y manejo de equivalencias de cunori Usac.</p>
+</center>
+<div class="row">
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Nuevo Estudiante", "Index", "ESTUDIANTE")</h2>
+        <img src="~/Scripts/estudiante.png" width="150">
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Registro de Equivalencia", "Index", "EQUIVALENCIA")</h2>
+        <img src="~/Scripts/registro.png" width="150">
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Ingreso de Equivalencia", "Index", "EQUIVALENCIA_CURSO")</h2>
+        <img src="~/Scripts/ingreso.png" width="150">
+    </div>
+</div>

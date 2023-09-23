@@ -1,0 +1,72 @@
+﻿@model SISTEMA_EQUIVALENCIAS.Models.EQUIVALENCIA_CURSO
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Remover</h2>
+
+<h3>Esta seguro de Remover el registro?</h3>
+<div>
+    <h4>Cursos en Equivalencia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FECHA_INICIO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FECHA_INICIO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FECHA_FIN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FECHA_FIN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OBSERVACIONES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OBSERVACIONES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CURSO.NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CURSO.NOMBRE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EQUIVALENCIA.LUGAR_FISICO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EQUIVALENCIA.LUGAR_FISICO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ESTADO.NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ESTADO.NOMBRE)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Regresar", "Index")
+        </div>
+    }
+</div>

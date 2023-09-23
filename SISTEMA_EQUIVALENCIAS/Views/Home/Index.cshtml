@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Privado";
+}
+
+<div class="jumbotron">
+    <center><img src="~/Scripts/Usac_logo.png" width="150"></center>
+    <center><h1>Equivalencias Cunori USAC</h1></center>
+    <center>
+        <p class="lead">Proyecto para registrar equivalencias de los estudiantes del centro regional.</p>
+    </center>
+
+
+    <h3>Catalogos</h3>
+    <div class="row">
+        <div class="col-md-3">
+            <center>
+                <h2>@Html.ActionLink("Carreras", "Index", "CARRERA")</h2>
+                <img src="~/Scripts/carrera.png" width="150">
+            </center>
+        </div>
+        <div class="col-md-3">
+            <center>
+                <h2>@Html.ActionLink("Sedes", "Index", "SEDE")</h2>
+                <img src="~/Scripts/sede.png" width="150">
+            </center>
+        </div>
+        <div class="col-md-3">
+            <center>
+                <h2>@Html.ActionLink("Cursos", "Index", "CURSO")</h2>
+                <img src="~/Scripts/curso.png" width="150">
+            </center>
+        </div>
+        <div class="col-md-3">
+            <center>
+                <h2>@Html.ActionLink("Estados", "Index", "ESTADO")</h2>
+                <img src="~/Scripts/estado.png" width="150">
+            </center>
+        </div>
+    </div>
+
+</div>
+

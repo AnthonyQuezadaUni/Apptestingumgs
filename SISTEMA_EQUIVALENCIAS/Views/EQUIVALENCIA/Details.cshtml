@@ -1,0 +1,58 @@
+﻿@model SISTEMA_EQUIVALENCIAS.Models.EQUIVALENCIA
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Equivalencia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FECHA_EQUIVALENCIA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FECHA_EQUIVALENCIA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LUGAR_FISICO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LUGAR_FISICO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OBSERVACIONES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OBSERVACIONES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SEDE.NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SEDE.NOMBRE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ESTUDIANTE.PRIMER_NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ESTUDIANTE.PRIMER_NOMBRE)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.ID_EQUIVALENCIA }) |
+    @Html.ActionLink("Regresar", "Index")
+</p>
